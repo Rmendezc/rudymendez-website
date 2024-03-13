@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rudy Mendez</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/d5e182f569.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container">
+        <div class="logo">
+          <a href="#"><img src="assets/RudyEMendezLogo(White).png" alt="Rudy Mendez Logo"></a>
+      </div> 
+          <div id="mainListDiv" class="main_list">
+              <ul class="navlinks">
+                  <li><a href="index.html#about">About</a></li>
+                  <li><a href="index.html#services">Services</a></li>
+                  <li><a href="index.html#contact">Contact</a></li>
+                  <li><a href="index.html#resume">Resume</a></li>
+                  <li><a href="projects.html">Portfolio</a></li>
+              </ul>
+          </div>
+          <span class="navTrigger">
+              <i></i>
+              <i></i>
+              <i></i>
+          </span>
+      </div>
+  </nav>
+  <section class="projectshome">
+    <div style="height: 1000px"></div>
+  </section>
+  <section>
+    <h1>Projects</h1>
+  </section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="script.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 60) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+  </body>
+  <footer>
+    <div class="footer-content">
+      <div class="logo">
+        <img src="assets/RudyEMendezemblem.png" alt="Rudy Mendez Logo emblem">
+      </div>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+                  <li><a href="index.html#interests-section">Services</a></li>
+                  <li><a href="index.html#contact">Contact</a></li>
+                  <li><a href="index.html#resume">Resume</a></li>
+                  <li><a href="projects.html">Portfolio</a></li>
+        </ul>
+      </nav>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/your-profile" target="_blank">
+          <i class="fab fa-linkedin" alt="linkedin"></i>
+        </a>
+        <a href="https://www.codepen.io/your-profile" target="_blank">
+          <i class="fab fa-codepen" alt="codepen"></i>
+        </a>
+        <a href="https://www.behance.net/your-profile" target="_blank">
+          <i class="fab fa-behance" alt="behance"></i>
+        </a>
+        <a href="https://www.github.com/your-profile" target="_blank">
+          <i class="fab fa-github" alt="github"></i>
+        </a>
+        <a href="mailto:youremail@example.com">
+          <i class="fas fa-envelope" alt="email"></i>
+        </a>
+        <a href="https://www.youtube.com/your-channel" target="_blank">
+          <i class="fab fa-youtube" alt="youtube"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+</html>
