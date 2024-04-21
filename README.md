@@ -1,1 +1,1 @@
-update coming very soon for my website im going to be using for job applications. Need to figurte out mobile view erros
+Updated my website to make the images be the same height overall and the width to adjust itself based on the height. 
