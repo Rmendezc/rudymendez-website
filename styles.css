@@ -563,7 +563,7 @@ p{
 }
 
 @media screen and (max-width: 425px) {
-  .navTrigger {
+  .navTrigger {  
       display: block;
   }
   .nav div.main_list {
