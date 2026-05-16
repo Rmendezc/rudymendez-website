@@ -4,214 +4,304 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Rudy Mendez</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Rudy Mendez | Software Developer</title>
+    <link rel="stylesheet" href="styles.css?v=20260516">
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/d5e182f569.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <nav class="nav">
+    <nav class="nav" aria-label="Primary navigation">
       <div class="container">
-          <div class="logo">
-              <a href="index.html"><img src="assets/RudyEMendezLogo(White).png" alt="Rudy Mendez Logo"></a>
-          </div> 
-          <div id="mainListDiv" class="main_list">
-              <ul class="navlinks">
-                <li><a href="index.html">Home</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#interests-section">Services</a></li>
-                  <li><a href="#contact">Contact</a></li>
-                  <li><a href="#resume">Specials</a></li>
-                  <li><a href="projects.html">Portfolio</a></li>
-              </ul>
+        <div class="logo">
+          <a href="index.html" aria-label="Rudy Mendez home">
+            <img src="assets/rmendezflyingballlogowhite.png" alt="Rudy Mendez Logo">
+          </a>
+        </div>
+        <div id="mainListDiv" class="main_list">
+          <ul class="navlinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#interests-section">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#resume">Specials</a></li>
+            <li><a href="projects.html">Portfolio</a></li>
+          </ul>
+        </div>
+        <button class="navTrigger" type="button" aria-label="Open navigation" aria-controls="mainListDiv" aria-expanded="false">
+          <i></i>
+          <i></i>
+          <i></i>
+        </button>
+      </div>
+    </nav>
+
+    <main>
+      <section class="home" aria-label="Rudy Mendez introduction">
+        <div class="hero-content">
+          <span class="hero-kicker">Phoenix based developer</span>
+          <h1>Software developer building secure, expressive web experiences.</h1>
+          <p>
+            I bring full-stack development, cybersecurity study, visual design, and music-minded rhythm into clean digital products that feel intentional from the first click.
+          </p>
+          <div class="hero-actions">
+            <a class="btn" href="projects.html">View Portfolio</a>
+            <a class="btn btn-secondary" href="#contact">Start a Project</a>
+            <br>
           </div>
-          <span class="navTrigger">
-              <i></i>
-              <i></i>
-              <i></i>
-          </span>
-      </div>
-  </nav>
-  
-  <section class="home">
-    <span class="logo firstName">Software</span>
-    <span class="logo lastName">Developer</span>
-  </section>
+        </div>
+      </section>
 
+      <section class="signal-strip" aria-label="Professional focus areas">
+        <div class="hero-metrics">
+          <div>
+            <strong>Full Stack</strong>
+            <span>Web and app builds</span>
+          </div>
+          <div>
+            <strong>Cyber</strong>
+            <span>Security student mindset</span>
+          </div>
+          <div>
+            <strong>Design</strong>
+            <span>UI, graphics, media</span>
+          </div>
+        </div>
+      </section>
 
-  <section id="about" class="about-section">
-    <h2>About Me</h2>
-    <div class="about-content">
-      <div class="text-column">
-        <p>Rudy Mendez is a creative individual focused in the Full Stack Developing field. He was born and raised in Phoenix, Arizona, with a rich Hispanic heritage. His background in years of laborious intense work has instilled a deep appreciation for hard work and dedication.</p>
-        <p>Rudy's journey in the creative industry began during his undergraduate studies at Arizona State University, where he pursued a degree in Graphic Information Technology. This program ignited his passion for creative endeavors, and he is committed to collaborating with talented individuals worldwide to craft exceptional projects.</p>
-        <p>Outside of the digital realm, Rudy is driven by his love for cars, engine work, real estate, custom metal fabrication, and competitive driving. By merging his professional path with these passions, he aspires to make a lasting impact in his career while nurturing his creative spirit.</p>
-      </div>
-      <div class="image-column">
-        <img src="assets/IMG_6547.JPG" alt="A picture of a very handsome man named Rudy Mendez">
-      </div>
-    </div>
-  </section>
-  <section id="skills">
-    <h1>Skills</h1>
-    <div class="icon-row">
-        <div class="icon-box">
-          <i class="fa-brands fa-html5"></i>
-            <p>Html5</p>
-        </div>
-        <div class="icon-box">
-          <i class="fa-brands fa-css3-alt"></i>
-            <p>Css3</p>
-        </div>
-        <div class="icon-box">
-          <i class="fa-brands fa-js"></i>
-            <p>JavaScript</p>
-        </div>
-        <div class="icon-box">
-          <i class="fa-solid fa-code"></i>
-            <p>Flutter & Dart</p>
-        </div>
-        <div class="icon-box">
-            <i class="fas fa-database"></i>
-            <p>MySql</p>
-        </div>
-        <div class="icon-box">
-          <i class="fa-brands fa-firefox"></i>
-          <p>FireBase</p>
-      </div>
-        <div class="icon-box">
-          <i class="fa-brands fa-github"></i>
-          <p>GitHub</p>
-      </div>
-        <div class="icon-box">
-          <i class="fa-brands fa-react"></i>
-            <p>React</p>
-        </div>
-        <div class="icon-box">
-          <i class="fa-brands fa-wordpress"></i>
-            <p>Wordpress</p>
-        </div>
-    </div>
-</section>
-<section class="interests-section" id="interests-section">
-  <h1 class="section-title">Services</h1>
-  <div class="image-grid">
-    <div class="image-container">
-      <div class="image-wrapper">
-        <img src="assets/frontend.jpg" alt="Image 1">
-        <div class="image-title">Front End Developing</div>
-      </div>
-    </div>
-  <div class="image-container">
-    <div class="image-wrapper">
-      <img src="assets/webdeveloping.jpg" alt="Image 2">
-      <div class="image-title">Web Developing</div>
-    </div>
-  </div>
-  <div class="image-container">
-    <div class="image-wrapper">
-      <img src="assets/wireframes.jpg" alt="Image 3">
-      <div class="image-title">Web Designing</div>
-    </div>
-  </div>
-  <div class="image-container">
-    <div class="image-wrapper">
-      <img src="assets/ui/ux.jpg" alt="Image 4">
-      <div class="image-title">UI/UX Designing</div>
-    </div>
-  </div>
-  <div class="image-container">
-    <div class="image-wrapper">
-      <img src="assets/fender_page_1.webp" alt="Image 5">
-      <div class="image-title">Graphic Design</div>
-    </div>
-  </div>
-  <div class="image-container">
-    <div class="image-wrapper">
-      <img src="assets/asu.webp" alt="Image 6">
-      <div class="image-title">Photography</div>
-    </div>
-  </div>
-</section>
-<section id="contact" class="contact-section">
-  <div class="contact-info">
-      <h1>Contact Me</h1>
-      <p>Combining Web and Design to Produce Honest Results</p>
-      <p>Feel free to reach out to me with any questions about any freelancing service.</p>
-      <p>Email: rudymendez32@gmail.com</p>
-  </div>
-  <div class="contact-form">
-      <h2>Get in Touch</h2>
-      <form class="contact-form">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-        
-        <button type="submit">Send</button>
-    </form>
-  </div>
-</section> 
-<section id="resume">
-  <h1>Specials</h1>
-  <div class="pdf-preview">
-    <iframe id="pdfFrame" src="assets/RmendezFlyers.pdf"></iframe>
-  </div>
-  <button id="downloadButton">Download Specials</button>
-</section>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="script.js"></script>
+      <section id="about" class="about-section">
+        <div class="section-inner">
+          <div class="section-header">
+            <div>
+              <span class="eyebrow">About</span>
+              <h2>Code with taste. Design with purpose.</h2>
+            </div>
+            <p>
+              I am a creative full-stack developer from Phoenix, Arizona, shaped by graphic information technology, hands-on problem solving, and a deep respect for hard work.
+            </p>
+          </div>
 
-<!-- Function used to shrink nav bar removing paddings and adding black background -->
-    <script>
-        $(window).scroll(function() {
-            if ($(document).scrollTop() > 60) {
-                $('.nav').addClass('affix');
-                console.log("OK");
-            } else {
-                $('.nav').removeClass('affix');
-            }
-        });
-    </script>
+          <div class="about-content">
+            <div class="text-column">
+              <p>Rudy Mendez is a creative individual focused in the Full Stack Developing field. He was born and raised in Phoenix, Arizona, with a rich Hispanic heritage. His background in years of laborious intense work has instilled a deep appreciation for hard work and dedication.</p>
+              <p>Rudy's journey in the creative industry began during his undergraduate studies at Arizona State University, where he pursued a degree in Graphic Information Technology. This program ignited his passion for creative endeavors, and he is committed to collaborating with talented individuals worldwide to craft exceptional projects.</p>
+              <p>Outside of the digital realm, Rudy is driven by his love for cars, engine work, real estate, custom metal fabrication, competitive driving, cybersecurity, music, and design. By merging his professional path with these passions, he aspires to make a lasting impact in his career while nurturing his creative spirit.</p>
+              <div class="about-tags" aria-label="Rudy's focus tags">
+                <span>Secure UI</span>
+                <span>Front End</span>
+                <span>Firebase</span>
+                <span>Brand Systems</span>
+                <span>Music Culture</span>
+              </div>
+            </div>
+            <div class="image-column">
+              <img src="assets/IMG_6547.JPG" alt="A picture of a very handsome man named Rudy Mendez">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="section-inner">
+          <div class="section-header">
+            <div>
+              <span class="eyebrow">Toolkit</span>
+              <h2>Languages, frameworks, and platforms.</h2>
+            </div>
+            <p>
+              A practical stack for building modern web products, prototypes, dashboards, brand sites, and mobile-friendly interfaces.
+            </p>
+          </div>
+
+          <div class="icon-row" aria-label="Skills">
+            <div class="icon-box">
+              <i class="fa-brands fa-html5" aria-hidden="true"></i>
+              <p>Html5</p>
+            </div>
+            <div class="icon-box">
+              <i class="fa-brands fa-css3-alt" aria-hidden="true"></i>
+              <p>Css3</p>
+            </div>
+            <div class="icon-box">
+              <i class="fa-brands fa-js" aria-hidden="true"></i>
+              <p>JavaScript</p>
+            </div>
+            <div class="icon-box">
+              <i class="fa-solid fa-code" aria-hidden="true"></i>
+              <p>Flutter & Dart</p>
+            </div>
+            <div class="icon-box">
+              <i class="fas fa-database" aria-hidden="true"></i>
+              <p>MySql</p>
+            </div>
+            <div class="icon-box">
+              <i class="fa-solid fa-fire" aria-hidden="true"></i>
+              <p>FireBase</p>
+            </div>
+            <div class="icon-box">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+              <p>GitHub</p>
+            </div>
+            <div class="icon-box">
+              <i class="fa-brands fa-react" aria-hidden="true"></i>
+              <p>React</p>
+            </div>
+            <div class="icon-box">
+              <i class="fa-brands fa-wordpress" aria-hidden="true"></i>
+              <p>Wordpress</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="interests-section" id="interests-section">
+        <div class="section-inner">
+          <div class="section-header">
+            <div>
+              <span class="eyebrow">Services</span>
+              <h2>Digital work with a creative pulse.</h2>
+            </div>
+            <p>
+              From interface planning to production builds, each service keeps the same foundation: clear structure, strong visuals, and a user experience that respects attention.
+            </p>
+          </div>
+
+          <div class="image-grid">
+            <div class="image-container">
+              <div class="image-wrapper">
+                <img src="assets/frontend.jpg" alt="Front end development workspace">
+                <div class="image-title">Front End Developing</div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="image-wrapper">
+                <img src="assets/webdeveloping.jpg" alt="Web development workspace">
+                <div class="image-title">Web Developing</div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="image-wrapper">
+                <img src="assets/wireframes.jpg" alt="Website wireframes">
+                <div class="image-title">Web Designing</div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="image-wrapper">
+                <img src="assets/ui/ux.jpg" alt="UI and UX planning">
+                <div class="image-title">UI/UX Designing</div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="image-wrapper">
+                <img src="assets/fender_page_1.webp" alt="Graphic design project">
+                <div class="image-title">Graphic Design</div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="image-wrapper">
+                <img src="assets/asu.webp" alt="ASU photography">
+                <div class="image-title">Photography</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="section-inner">
+          <div class="contact-layout">
+            <div class="contact-info">
+              <div>
+                <span class="eyebrow">Contact</span>
+                <h2>Let's build something that feels finished.</h2>
+                <p>Combining Web and Design to Produce Honest Results. Feel free to reach out with questions about freelancing services, portfolio work, cyber-focused projects, or creative collaborations.</p>
+                <ul class="contact-list">
+                  <li><span>Email:</span> <a href="mailto:rudymendez32@gmail.com">rudymendez32@gmail.com</a></li>
+                  <li><span>Portfolio:</span> <a href="projects.html">projects.html</a></li>
+                  <li><span>Location:</span> <span>Phoenix, Arizona</span></li>
+                </ul>
+              </div>
+              <div class="contact-actions">
+                <a class="btn" href="mailto:rudymendez32@gmail.com">Email Me</a>
+                <a class="btn btn-secondary" href="assets/Rudy_M_Resume .docx.pdf" target="_blank">View Resume</a>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <h3>Get in Touch</h3>
+              <form class="contact-form" action="mailto:rudymendez32@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume">
+        <div class="section-inner resume-layout">
+          <div>
+            <span class="eyebrow">Specials</span>
+            <h2>Freelance service flyer.</h2>
+            <p>
+              A quick look at current creative and development services. The preview keeps your existing PDF in place and the button downloads the same file.
+            </p>
+            <div class="hero-actions">
+              <button id="downloadButton" type="button" data-download-path="assets/RmendezFlyers.pdf" data-download-name="RmendezFlyers.pdf">Download Specials</button>
+              <a class="btn btn-secondary" href="assets/Rudy_M_Resume .docx.pdf" target="_blank">Open Resume</a>
+            </div>
+          </div>
+          <div class="pdf-preview">
+            <iframe id="pdfFrame" src="assets/RmendezFlyers.pdf" title="Rudy Mendez specials flyer"></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="logo">
+          <img src="assets/rmendezflyingballlogowhite.png" alt="Rudy Mendez Emblem">
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#interests-section">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#resume">Specials</a></li>
+            <li><a href="projects.html">Portfolio</a></li>
+          </ul>
+        </nav>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/rudyemen/" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a href="https://codepen.io/Rudy-Mendez" target="_blank" aria-label="CodePen">
+            <i class="fab fa-codepen" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.behance.net/rudymendez1" target="_blank" aria-label="Behance">
+            <i class="fab fa-behance" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.github.com/your-profile" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
+          <a href="mailto:mendezrudy12@live.com" aria-label="Email">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.youtube.com/channel/UCGw9F8NkEk4XhWKAt_DkmgA" target="_blank" aria-label="YouTube">
+            <i class="fab fa-youtube" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js?v=20260516"></script>
   </body>
-  <footer>
-    <div class="footer-content">
-      <div class="logo">
-        <img src="assets/RudyEMendezemblem.png" alt="Rudy Mendez Emblem">
-      </div>
-      <nav class="footer-nav">
-        <ul>
-          <li><a href="#about">About</a></li>
-                  <li><a href="#services">Services</a></li>
-                  <li><a href="#contact">Contact</a></li>
-                  <li><a href="#resume">Resume</a></li>
-                  <li><a href="projects.html">Portfolio</a></li>
-        </ul>
-      </nav>
-      <div class="social-icons">
-        <a href="https://www.linkedin.com/in/rudyemen/" target="_blank">
-          <i class="fab fa-linkedin" alt="linkedin"></i>
-        </a>
-        <a href="https://codepen.io/Rudy-Mendez" target="_blank">
-          <i class="fab fa-codepen" alt="codepen"></i>
-        </a>
-        <a href="https://www.behance.net/rudymendez1" target="_blank">
-          <i class="fab fa-behance" alt="behance"></i>
-        </a>
-        <a href="https://www.github.com/your-profile" target="_blank">
-          <i class="fab fa-github" alt="github"></i>
-        </a>
-        <a href="mailto:mendezrudy12@live.com">
-          <i class="fas fa-envelope" alt="email"></i>
-        </a>
-        <a href="https://www.youtube.com/channel/UCGw9F8NkEk4XhWKAt_DkmgA" target="_blank">
-          <i class="fab fa-youtube" alt="youtube"></i>
-        </a>
-      </div>
-    </div>
-  </footer>
 </html>
